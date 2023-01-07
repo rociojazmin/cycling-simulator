@@ -1,0 +1,59 @@
+
+body {
+  font-family: Verdana, sans-serif;
+  background-color: beige;
+  font-family: 'Inconsolata', monospace;
+}
+
+
+.titulo{
+  text-align: center;
+  padding-top: 0.7em;
+
+}
+.record{
+  text-align: center;
+  font-size: 22px;
+}
+.record span{
+  margin-left: 8px;
+  font-size: 16px;
+  background-color: aqua;
+}
+.contenedor{
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+table thead{
+  background: rgb(60, 60, 220);
+  color: #fff;
+  font-size: 18px;
+}
+table thead th{
+  padding: 0.2rem 1rem;
+}
+table tbody{
+  background: #E5E5E5;
+}
+table td,table tr{
+  text-align: center;
+}
+table tbody td{
+  padding: 0.1rem 1rem;
+}
+table tbody tr td:last-child{
+  font-family: 'Inconsolata', monospace;
+  font-size: 14px;
+}
+.record-superado{
+  background-color: green;
+  color: #fff;
+}
+.ultimos{
+  background-color: red;
+  color: #fff;
+}
